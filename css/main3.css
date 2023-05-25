@@ -1,0 +1,73 @@
+body{
+    background-color: lightgrey;
+}
+.big_box{
+    width: 1200px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    background-color: lightgoldenrodyellow;
+    padding: 15px 0;
+}
+.box{
+    width: 800px;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 24px;
+    text-decoration: none;
+}
+.btn1 {
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+}
+.btn2{
+    background-color: lightgreen;
+    color: white;
+    border: 1px solid lightgreen;
+}
+.btn3{
+    background-color: skyblue;
+    color: white;
+    border: 1px solid skyblue;
+}
+.btn4{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+ }
+.btn5{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+.box3 .btn {
+    border-radius: 8px;
+}
+.box2 .btn {
+    border-radius: 50px;
+}
+.blue{
+    border: 1px solid blue;
+    color: blue;
+}
+.green{
+    border: 1px solid lightgreen;
+    color: lightgreen;
+}
+.skyblue{
+    border: 1px solid skyblue;
+    color: skyblue;
+}
+.orange{
+    border: 1px solid orange;
+    color: orange;
+}
+.red{
+    border: 1px solid red;
+    color: red;
+}
+

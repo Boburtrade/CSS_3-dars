@@ -1,0 +1,86 @@
+body{
+    background-color: #87ceeb;
+    margin: 0;
+    padding: 0;
+}
+.navbar-stikcy{
+    background-color: white;
+    background-image: url("../rasmlar/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("../rasmlar/lupa.jpg");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 25px 10px;
+    list-style: none;
+}
+.navbar-item a{
+    color: #808080;
+    text-decoration: none;
+}
+.navbar-item:hover a{
+    color: blue;
+}
+.navbar-item:hover a{
+    color: blue;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar-item{
+    position: relative;
+    padding: 25px 25px 25px 10px;
+}
+.navbar-item:after{
+    content: url(".");
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 4px;
+    transform: rotate(270deg);
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    display: none;
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+    list-style: none;
+}
+.ab:after{
+    content: url(".");
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 4px;
+    transform: rotate(270deg);
+}

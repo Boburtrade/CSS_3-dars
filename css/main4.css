@@ -1,0 +1,124 @@
+body{
+    background-color: lightgrey;
+}
+.big_box{
+    width: 1000px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    background-color: white;
+}
+.box-1{
+    text-align: center;
+    width: 300px;
+    float: left;
+    box-sizing: border-box;
+}
+.box-1 .btn{
+    background-color: limegreen;
+    color: white;
+    border: 1px solid limegreen;
+    border-radius: 8px;
+}
+.box-3{
+    text-align: center;
+    width: 300px;
+    float: right;
+    box-sizing: border-box;
+}
+.box-2{
+    width: 398px;
+    height: 182px;
+    box-sizing: border-box;
+    float: left;
+    background-image: url("../rasmlar/uz.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.clear {
+    clear: both;
+}
+.c{
+    padding: 15px 50px;
+}
+.a{
+    padding: 15px 56px;
+}
+.b{
+    padding: 15px 54px;
+}
+.d{
+   padding: 15px 54px;
+}
+.box-3 .btn{
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid deepskyblue;
+}
+.box-4{
+    width: 250px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.box-4 a{
+    padding: 15px 50px;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: lightgrey;
+    color: grey;
+}
+.box-5{
+    width: 250px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.box-5 a{
+    padding: 15px 65px;
+    border: 1px solid grey;
+    display: inline-block;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: grey;
+}
+.box-6{
+    width: 250px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.box-6 a{
+    padding: 15px 65px;
+    border: 1px solid grey;
+    display: inline-block;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.box-7{
+    width: 250px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.box-7 a{
+    padding: 15px 65px;
+    border: 1px solid deepskyblue;
+    display: inline-block;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}

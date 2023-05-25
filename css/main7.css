@@ -1,0 +1,76 @@
+
+.fix{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    line-height: 30px;
+    background-image: url("../rasmlar/abc.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+    border: 1px solid gold;
+    border-radius: 70px;
+}
+.fix2 {
+    background-color: gold;
+    border: 1px solid black;
+    color: black;
+    border-radius: 70px;
+    top: 850px;
+    right: 17px;
+    position: absolute;
+}
+.fix:active{
+    display: none;
+    margin-top: 3px;;
+    border-bottom-width: 3px
+}
+.big{
+    border: 1px solid grey;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+.p{
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: gold;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 0 150px;
+}
+.btn{
+    display: inline-block;
+    padding: 16px 24px;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: left;
+    width: 250px;
+    margin-top: 70px;
+}
+.btn:after{
+    content: url(".");
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 27px;
+    right: 4px;
+    transform: rotate(270deg);
+}
+.btn{
+    position: relative;
+    padding: 25px 25px 25px 10px;
+}

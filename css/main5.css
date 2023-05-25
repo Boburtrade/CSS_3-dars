@@ -1,0 +1,86 @@
+body{
+    background-color: lightgrey;
+}
+.big_box{
+    height: 750px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 100px auto;
+    background-color: white;
+}
+.big{
+    background-image: url("../rasmlar/camera.png");
+    width: 260px;
+    height: 430px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 30px 60px;
+}
+
+.flex{
+    position: absolute;
+    background-color: coral;
+    color: white;
+    border-radius: 75px;
+    text-decoration: none;
+    width: 75px;
+    height: 75px;
+    line-height: 35px;
+    top: 25px;
+    right: 10px;
+    text-align: center;
+}
+.big_box {
+    position: relative;
+}
+
+.btn {
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    background-color: limegreen;
+    position: relative;
+    float: top;
+}
+.skidka{
+    background-color: red;
+    position: absolute;
+    border-radius: 10px;
+    top: 680px;
+    left: 10px;
+    width: 60px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.b {
+    position: relative;
+    color: black;
+    bottom: 80px;
+    left: 200px;
+}
+.a{
+    background-color: gold;
+    color: white;
+    width: 60px;
+    height: 40px;
+    position: relative;
+    bottom: 80px;
+    left: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+.B{
+    position: relative;
+    color: black;
+    bottom: 100px;
+    left: 275px;
+}
+
+
+
+
